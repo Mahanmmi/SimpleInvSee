@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "mahanmmi_simple_invsee",
+  "version": "${version}",
+  "name": "Simple InvSee",
+  "description": "A tool for OPs to see players inventory",
+  "authors": [
+    "Mahan ZDH"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/Mahanmmi/SimpleInvSee"
+  },
+  "license": "MIT",
+  "icon": "assets/mahanmmi_simple_invsee/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "invsee.InvseeInit"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "mahanmmi_simple_invsee.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.9",
+    "fabric": "*"
+  }
+}
